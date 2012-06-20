@@ -9,8 +9,13 @@ QT       += core gui
 TARGET = APackageManager
 TEMPLATE = app
 
+INCLUDEPATH += ..\At\Base
 
 SOURCES += main.cpp\
-        MainWindow.cpp
+        MainWindow.cpp \
+    Application.cpp
 
-HEADERS  += MainWindow.h
+HEADERS  += MainWindow.h \
+    Application.h \
+    ../At/Base/ABase.h \
+    ../At/Base/ABase2.h
