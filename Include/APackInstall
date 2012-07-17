@@ -1,0 +1,19 @@
+/* APackageManager install functions
+ * Author Prof1983 <prof1983@ya.ru>
+ * Created 17.07.2012
+ * LastMod 17.07.2012
+ * Version 0.0
+ */
+
+#ifndef APackInstall_H
+#define APackInstall_H
+
+#include "ABase"
+
+AError
+func Install(AInt argc, AStr argv[]);
+
+AError
+func InstallPackage(AStr PackageName);
+
+#endif // APackInstall_H
